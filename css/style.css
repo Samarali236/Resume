@@ -1,6 +1,5 @@
 body {
       margin: 0;
-      padding: 0;
       display: flex;
       flex-direction: row;
       background: #f5f5f5;
@@ -15,4 +14,38 @@ body {
     }
 
     .icons{color: orange}
+
+
+    .right {
+      width: 65%;
+      background: white;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    img{
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #f4a300;
+      margin-top: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .dot {
+      height: 10px;
+      width: 10px;
+      background-color: #f4a300;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    
     
